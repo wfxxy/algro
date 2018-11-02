@@ -1,0 +1,5 @@
+1、出现错误：no such table: auth_user
+    没有用户表格，就是没有创建任何admin用户
+解决方式：    
+    python3 manage.py migrate
+    python3 manage.py createsuperuser
